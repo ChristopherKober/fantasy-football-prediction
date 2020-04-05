@@ -1,10 +1,10 @@
 import React from 'react';
-import './titlebar.scss'
+import './TitleBar.scss'
 
 export class TitleBar extends React.Component {
     render() {
-        return <div class="titlebar">
-            <body>TitleBar</body>
+        return <div className="titlebar">
+            <h1>TitleBar</h1>
         </div>;
     }    
 }

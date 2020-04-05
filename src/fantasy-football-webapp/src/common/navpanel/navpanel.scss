@@ -1,0 +1,43 @@
+.navpanel .links {
+    position: fixed;
+    left: 0px;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(10,0,20);
+    padding: 0px 0px;
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.navpanel .links a {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    color:white;
+}
+
+.navpanel .links svg {
+    fill: white;
+    height:40px;
+    stroke-width: 50%;
+}
+
+.navpanel #homeLinkSvg {
+    fill: rgb(255, 154, 162)
+}
+
+.navpanel #playerFocusLinkSvg {
+    fill: rgb(255, 218, 193)
+}
+
+.navpanel #playerCompareLinkSvg {
+    fill: rgb(226, 240, 203)
+}
+
+.navpanel #leadersLinkSvg {
+    fill: rgb(199, 206, 234)
+}
